@@ -22,7 +22,6 @@ repeatable step before data gets used downstream.
 
 ## Example output
 
-==================================================
 ![image alt](https://github.com/Amuruth6/dataquality/blob/7407503b4581e49a85dbae6c053dd6200dfb717d/Screenshot%202026-09-06%20195524.png)
 
 ## Engineering decisions
