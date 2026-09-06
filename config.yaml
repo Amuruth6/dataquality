@@ -1,0 +1,18 @@
+file: sample_data/customers_large.csv
+
+duplicate_check:
+  ignore_columns: ["id"]
+
+rules:
+  age:
+    type: int
+    min: 18
+    max: 100
+
+  email:
+    type: str
+    regex: "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+
+  salary:
+    type: float
+    outlier_method: iqr
