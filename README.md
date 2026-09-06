@@ -23,21 +23,7 @@ repeatable step before data gets used downstream.
 ## Example output
 
 ==================================================
-DATA QUALITY REPORT
-
-File: sample_data/customers_large.csv
-Rows: 5,100
-Columns: 5
-Missing Values: 0.99% (252 cells)
-Duplicate Rows: 99
-Invalid 'age': 30
-Invalid 'email': 25
-Outliers in 'salary': 47 (IQR)
-Overall Quality Score: 98.9 / 100
-
-
-Plus an HTML report with a color-coded score card and issue breakdown table (see
-`sample_report_screenshot.png`).
+![image alt](https://github.com/Amuruth6/dataquality/blob/7407503b4581e49a85dbae6c053dd6200dfb717d/Screenshot%202026-09-06%20195524.png)
 
 ## Engineering decisions
 
